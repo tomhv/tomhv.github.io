@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using <code>empty_data</code> with mandatory constructor arguments
+title: Using empty_data with mandatory constructor arguments
 location: Massachusetts, US
 ---
 
