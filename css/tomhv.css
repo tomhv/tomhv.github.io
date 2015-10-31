@@ -23,5 +23,7 @@ body
 .post-comments
 {
     border-top: 1px solid #ccc;
-    padding: 2em 0;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
