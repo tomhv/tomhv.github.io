@@ -9,3 +9,8 @@ body
     color: #900;
     font-size: 36px;
 }
+
+.navbar-nav > li > a
+{
+    font-size: 1.4em;
+}
