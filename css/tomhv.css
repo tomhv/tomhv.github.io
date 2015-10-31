@@ -3,7 +3,7 @@ body
     padding-top: 50px;
 }
 
-.navbar-brand
+.navbar-default .navbar-brand
 {
     font-family: Rancho, sans-serif;
     color: #900;
