@@ -1,0 +1,18 @@
+safe:      true
+permalink: pretty
+exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
+
+# Setup
+title: "tomhv.uk"
+tagline: ""
+url: http://tomhv.uk
+baseurl: "http://tomhv.uk"
+
+# About/contact
+author:
+  name: Tom HV
+  url:
+  email: tom@tomhv.uk
+
+my_github:   http://www.github.com/tomhv
+my_twitter:  http://www.twitter.com/tomhvuk
