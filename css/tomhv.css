@@ -25,3 +25,8 @@ body
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
+small.text-muted.text-uppercase
+{
+    font-size: 0.8em;
+}
