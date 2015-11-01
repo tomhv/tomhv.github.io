@@ -10,6 +10,10 @@ body
     font-size: 36px;
 }
 
+.navbar-default .navbar-brand small
+{
+    font-size: 0.7em;
+}
 .navbar-nav > li > a
 {
     font-size: 1.4em;
