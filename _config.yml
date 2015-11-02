@@ -1,5 +1,5 @@
 safe:      true
-permalink: /:categories/:year/:month/:day/:title.htm
+permalink: date
 markdown:  redcarpet
 highlighter: pygments
 exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
