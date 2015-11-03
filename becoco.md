@@ -3,9 +3,6 @@ layout: default
 title: BeCoCo
 ---
 
-BeCoCo - Berkshire County Connected
-===================================
-
 <br />
 
 #### RMV Wait Time Feed
