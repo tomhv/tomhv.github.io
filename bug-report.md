@@ -6,9 +6,7 @@ title: Bug Report
 Bug Report
 ==========
 
-..  
-
-```bug
+```
 When I try to update my email address I get a 404 error
 
 Reporter:            John Smith <jsmith@example.com>
