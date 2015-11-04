@@ -10,8 +10,9 @@ title: ToDo &#171; Angular
         {% include top_nav.html %}
 
         <div class="container">
+            <h1>Todo List</h1>
             <div ng-controller="TodoCtrl">
-                
+                <p>Total items: {{ totalTodos }}</p>
             </div>
         </div>
         {% include javascripts.html %}
