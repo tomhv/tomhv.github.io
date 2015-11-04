@@ -6,15 +6,15 @@ title: Bug Report
 Bug Report
 ==========
 
-```bug
+```
 When I try to update my email address I get a 404 error
 
-Reporter:           John Smith <jsmith@example.com>
-Date:               4 Nov 2015
-Environment:        Prod, UAT and Dev
-Expected behavior:  I receive a notifcation that my email has been updated
-Actual behavior:    Error 404
-Happens every time: Yes
+Reporter:            John Smith <jsmith@example.com>
+Date:                4 Nov 2015
+Environment:         Prod, UAT and Dev
+Expected behavior:   I receive a notifcation that my email has been updated
+Actual behavior:     Error 404
+Happens every time:  Yes
 
 Steps to reproduce: 
 
