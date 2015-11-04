@@ -14,7 +14,7 @@ title: ToDo &#171; Angular
         <div class="container">
             <h1>Todo List</h1>
             <div ng-controller="TodoCtrl">
-                <p>Total items: {{ totalTodos }}</p>
+                <p>Total items: <span ng-bind="totalTodos"></span></p>
             </div>
         </div>
     </body>
