@@ -53,6 +53,10 @@ title: ToDo &#171; Angular
             <h1>Todo List</h1>
             <div ng-controller="TodoCtrl">
                 <p>Total items: <span ng-bind="totalTodos"></span></p>
+                
+                <ul>
+                   <li ng-repeat="todo in todos"><span ng-bind="todo"></span></li> 
+                </ul>
             </div>
         </div>
     </body>
