@@ -8,6 +8,7 @@ Bug Report
 
 <div class="row">
     <div class="col-md-6">
+    
 ```
 When I try to update my email address I get a 404 error
 
@@ -25,5 +26,6 @@ Steps to reproduce:
   3. Enter valid email address
   4. Hit [Update]
 ```
+
     </div><!-- .col -->
 </div><!-- .row -->
