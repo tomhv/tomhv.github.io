@@ -28,5 +28,5 @@ Steps to reproduce:
 
 ```
 
-    </div><!-- .col -->
-</div><!-- .row -->
+    </div>
+</div>
