@@ -25,6 +25,7 @@ Steps to reproduce:
   2. Click _Change email address_
   3. Enter valid email address
   4. Hit [Update]
+
 ```
 
     </div><!-- .col -->
