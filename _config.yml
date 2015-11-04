@@ -1,5 +1,5 @@
 safe:      true
-permalink: date
+permalink: pretty
 markdown:  redcarpet
 highlighter: pygments
 exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
