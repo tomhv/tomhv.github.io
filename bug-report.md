@@ -8,7 +8,7 @@ Bug Report
 
 <div class="row">
     <div class="col-md-6">
-```bug
+```
 When I try to update my email address I get a 404 error
 
 Reporter:           John Smith <jsmith@example.com>
