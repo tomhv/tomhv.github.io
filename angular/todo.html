@@ -51,13 +51,21 @@ title: ToDo &#171; Angular
 
         <div class="container">
             <h1>Todo List</h1>
-            <div ng-controller="TodoCtrl">
-                <p>Total items: <span ng-bind="totalTodos"></span></p>
-                
-                <ul>
-                   <li ng-repeat="todo in todos"><span ng-bind="todo.text"></span></li> 
-                </ul>
-            </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div ng-controller="TodoCtrl">
+                        <p>Total items: <span ng-bind="totalTodos"></span></p>
+                        
+                        <ul>
+                           <li ng-repeat="todo in todos"><span ng-bind="todo.text"></span></li> 
+                        </ul>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-md-6">
+
+                </div><!-- .col -->
+            </div><!-- .row -->
         </div>
     </body>
 </html>
