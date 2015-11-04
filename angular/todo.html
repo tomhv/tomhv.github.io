@@ -65,16 +65,16 @@ title: ToDo &#171; Angular
                 <div class="col-md-6">
                     <pre>
                         <code class="language-javascript" data-lang="javascript">
-                            angular.module('myApp', [])
-                                .controller('TodoCtrl', function($scope) {
-                                    $scope.totalTodos = 10;
-                                    
-                                    // initialize with some existing todos
-                                    $scope.todos = [
-                                        { text: 'Buy cat food', done: false },
-                                        { text: 'Eat candy', done: false }
-                                    ];
-                                });
+angular.module('myApp', [])
+    .controller('TodoCtrl', function($scope) {
+        $scope.totalTodos = 10;
+        
+        // initialize with some existing todos
+        $scope.todos = [
+            { text: 'Buy cat food', done: false },
+            { text: 'Eat candy', done: false }
+        ];
+    });
                         </code>
                     </pre>
                 </div><!-- .col -->
