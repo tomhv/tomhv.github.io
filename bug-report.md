@@ -6,9 +6,6 @@ title: Bug Report
 Bug Report
 ==========
 
-<div class="row">
-    <div class="col-md-6">
-    
 ```
 When I try to update my email address I get a 404 error
 
@@ -27,6 +24,3 @@ Steps to reproduce:
   4. Hit [Update]
 
 ```
-
-    </div>
-</div>
