@@ -8,7 +8,7 @@ Bug Report
 
 <div class="row">
     <div class="col-md-6">
-        ```bug
+```bug
 When I try to update my email address I get a 404 error
 
 Reporter:           John Smith <jsmith@example.com>
@@ -24,6 +24,6 @@ Steps to reproduce:
   2. Click _Change email address_
   3. Enter valid email address
   4. Hit [Update]
-        ```
+```
     </div><!-- .col -->
 </div><!-- .row -->
