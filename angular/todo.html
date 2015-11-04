@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
     {% include head.html %}
     <body>
         {% include top_nav.html %}
 
         <div class="container">
-            {{ content }}
+            <div ng-controller="TodoCtrl">
+                
+            </div>
         </div>
-
         {% include javascripts.html %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js" type="text/javascript" />
+        <script src="/js/angular/todo.js" type="text/javascript" />
     </body>
 </html>
