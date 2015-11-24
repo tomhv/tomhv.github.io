@@ -58,4 +58,7 @@ Run all commands in ~ unless otherwise specified.
 
     ```bash
     $ php ./app/check.php
+    $ ./app/console server:run
     ```
+    
+    Browse to http://127.0.0.1:8000/config.php
