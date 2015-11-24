@@ -20,3 +20,18 @@ New Ubuntu Box
     ```
 
 3. Add SSH key to github
+
+4. Install "My Environment"
+
+    ``` bash 
+    $ git clone git@github.com:tomhv/my.environment.git
+    $ ./my.environment/install.sh
+    $ source ~/.bashrc
+    ```
+    
+5. Install composer
+
+    ```bash
+    $ curl -sS https://getcomposer.org/installer | php
+    $ sudo mv composer.phar /usr/local/bin/composer
+    ```
