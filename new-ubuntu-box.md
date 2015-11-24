@@ -6,11 +6,12 @@ title: New Ubuntu Box
 New Ubuntu Box
 ==============
 
+Run all commands in ~ unless otherwise specified.
 
 1. Install packages
 
     ```bash
-    $ sudo apt-get install git vim php5 php5-mysql php5-curl ssh
+    $ sudo apt-get install git vim php5 php5-mysql php5-curl php5-intl ssh
     ```
 
 2. Generate SSH key
@@ -29,9 +30,32 @@ New Ubuntu Box
     $ source ~/.bashrc
     ```
     
-5. Install composer
+5. Set timezone in PHP
+
+    ```bash
+    $ sudo sed -i 's/;date.timezone =/date.timezone = America\/New_York/' /etc/php5/cli/php.ini
+    $ sudo sed -i 's/;date.timezone =/date.timezone = America\/New_York/' /etc/php5/apache2/php.ini
+    ```
+
+6. Install composer
 
     ```bash
     $ curl -sS https://getcomposer.org/installer | php
     $ sudo mv composer.phar /usr/local/bin/composer
+    ```
+
+7. Install symfony-standard
+
+    Use all defaults for params
+
+    ```bash
+    $ git clone https://github.com/symfony/symfony-standard.git
+    $ cd symfony-standard
+    $ composer install -v
+    ```
+    
+8. Ensure Symfony requirements are met
+
+    ```bash
+    $ php ./app/check.php
     ```
