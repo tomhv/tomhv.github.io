@@ -1,0 +1,3 @@
+---
+title: New Ubuntu Box
+---
