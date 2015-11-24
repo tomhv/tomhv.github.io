@@ -10,7 +10,7 @@ New Ubuntu Box
 1. Install packages
 
     ```bash
-    $ sudo apt-get install git vim php5 php5-mysql php5-curl
+    $ sudo apt-get install git vim php5 php5-mysql php5-curl ssh
     ```
 
 2. Generate SSH key
