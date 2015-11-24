@@ -15,8 +15,8 @@ New Ubuntu Box
 
 2. Generate SSH key
 
-```bash
-$ ssh-keygen -t rsa -b 4096 -C "tom@tomhv.uk"
-```
+    ```bash
+    $ ssh-keygen -t rsa -b 4096 -C "tom@tomhv.uk"
+    ```
 
 3. Add SSH key to github
