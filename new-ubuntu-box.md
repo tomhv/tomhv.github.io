@@ -11,7 +11,7 @@ Run all commands in ~ unless otherwise specified.
 1. Install packages
 
     ```bash
-    $ sudo apt-get install git vim php5 php5-mysql php5-curl php5-intl ssh
+    $ sudo apt-get install git vim php5 php5-mysql php5-curl php5-intl ssh mysql-server
     ```
 
 2. Generate SSH key
