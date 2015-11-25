@@ -2,7 +2,9 @@
 layout: post
 title: Building an Ubuntu Development Box
 abstract: |
-    I recently had to rebuild my development environment after accidentally deleting my Kernel.  Since it's not the first time I've had to rebuild, I figured I'd make some notes.  Here they are.
+    I recently had to rebuild my development environment after accidentally deleting my Kernel.  Since it's not the first time     I've had to rebuild, I figured I'd make some notes.  Here they are.
+post_id: 20151124-1
+author: Tom
 ---
 
 {{ page.abstract }}
