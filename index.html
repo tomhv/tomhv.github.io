@@ -10,7 +10,7 @@ title: tomhv.uk
     <div class="col-md-8">
         {% for post in site.posts %}
             <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p><small class="text-uppercase text-muted">{{ post.date | date: "%a %-d %B %Y" }}</small></p>
+            <p><small class="text-uppercase text-muted">{{ post.date | date: "%a %-d %B %Y" }} | {{ post.author }}</small></p>
             <p>{{ post.abstract }}</p>
             <hr />
         {% endfor %}
