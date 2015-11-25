@@ -1,10 +1,7 @@
 ---
 layout: post
-title: New Ubuntu Box
+title: Building an Ubuntu Development Box
 ---
-
-New Ubuntu Box
-==============
 
 Run all commands in ~ unless otherwise specified.
 
