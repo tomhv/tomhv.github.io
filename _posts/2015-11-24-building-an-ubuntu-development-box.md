@@ -5,8 +5,6 @@ abstract: |
     I recently had to rebuild my development environment after accidentally deleting my Kernel.  Since it's not the first time I've had to rebuild, I figured I'd make some notes.  Here they are.
 ---
 
-Abstract
-
 {{ page.abstract }}
 
 Run all commands in ~ unless otherwise specified.
