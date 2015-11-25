@@ -7,7 +7,7 @@ abstract: |
 
 Abstract
 
-{{ post.abstract }}
+{{ page.abstract }}
 
 Run all commands in ~ unless otherwise specified.
 
