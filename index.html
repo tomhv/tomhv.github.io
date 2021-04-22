@@ -3,16 +3,7 @@ layout: default
 title: tomhv.uk
 ---
 
-<div class="row">
-    <div class="col-md-4">
-        <img class="img-responsive hidden-sm hidden-md" src="/images/fall_mobile.jpg" alt="Fall" />
-    </div><!-- .col -->
-    <div class="col-md-8">
-        {% for post in site.posts %}
-            <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p><small class="text-uppercase text-muted">{{ post.date | date: "%a %-d %B %Y" }} by {{ post.author }}</small></p>
-            <p>{{ post.abstract }}</p>
-            <hr />
-        {% endfor %}
-    </div><!-- .col -->
-</div><!-- .row -->
+<div>
+  <img class="img-responsive hidden-sm hidden-md" src="https://tomhv.uk/images/morning.jpg" alt="Misty morning in the cemetery" />
+</div>
+<p><small class="text-uppercase text-muted">Misty April morning in the cemetery</small></p>
